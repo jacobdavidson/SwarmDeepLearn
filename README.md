@@ -1,8 +1,8 @@
-### Five fish
+## Five fish
 The code is in two separate files, one for training and generating
 predictions, and the other for running simulations.
 
-## Training and generating predictions
+### Training and generating predictions
 five_fish_model.ipynb:
   Description:
   -At the beginning, we define global variables for network parameters.  These
@@ -23,8 +23,18 @@ five_fish_model.ipynb:
   -"Now run the code" depicts a typical use case.
 
   Use:
+  -Define all functions above
+  -Create training, validation, and test sets by running download_and_preprocess_data()
+  -Train the model using train_model()
+  -Generate and save a trajectory by running
+  ```
+  savefile = './ModelOutputs/generated_trajectory.csv'
+  seed = x_valid[0]  # an initial window to feed into the generative model
+  pred = generate_prediction(seed, prediction_length=5000, restore_path=model_path, progress_counter=40)
+  np.savetxt(savefile, pred, delimiter=',')
+  ```
 
-## One fish
+### One fish
 Again, the code is in two separate files.  Use is much the same as with the five
 fish model.
 The notebook for training and generating predictions is called "<notebook name>",
