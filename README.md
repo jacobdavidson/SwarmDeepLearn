@@ -65,8 +65,6 @@ The further directions that I think are the most interesting are the following:
 
 1). To change the architecture to be a social LSTM architecture. Our very limited attempt was to modify the tensorflow social LSTM code found here: https://github.com/xuerenlv/social-lstm-tf. This attempt is in our folder "unsocial-social-lstm".
 
-2). The next change would be to change the loss function which currently is mean square error. We instead would like to predict a probability distribution and use log-likehood loss. 
+2). The next change would be to change the loss function which currently is mean square error. We instead would like to predict a probability distribution and use log-likehood loss. Our attempt can be found here "unsuccessful-log_likelihood.ipynb". Scroll down to find the cell with the pertinent information.
 
-
-
-2). 
+We very quickly tried both of these approaches but we never got them to work as well as our previous models. We believe that this is because of bugs in our code and that these approaches still have lots of merit.
