@@ -34,8 +34,11 @@ five_fish_model.ipynb:
   np.savetxt(savefile, pred, delimiter=',')
   ```
 
-### One fish
+### Running simulations
+five_fish_sim.ipynb
+
+## One fish
 Again, the code is in two separate files.  Use is much the same as with the five
 fish model.
-The notebook for training and generating predictions is called "<notebook name>",
-and the notebook for visualizing simulations is called "<notebook name"
+The notebook for training and generating predictions is called "one_fish_model.ipynb",
+and the notebook for visualizing simulations is called "fish_sim.ipynb"
