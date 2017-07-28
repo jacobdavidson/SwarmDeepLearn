@@ -1,1 +1,1 @@
-Tensorflow implementation of the social LSTM code found here https://github.com/xuerenlv/social-lstm-tf, update to run on tensorflow 1.2.0.
+Tensorflow implementation of the social LSTM code found here https://github.com/xuerenlv/social-lstm-tf, update to run on tensorflow 1.2.0. We never got it to work as well as our previous models. We couldn't figure out why.
