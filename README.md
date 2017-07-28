@@ -58,3 +58,15 @@ are the fish's distance to all four walls.
 
 The notebook for training and generating predictions is called "one_fish_model.ipynb",
 and the notebook for visualizing simulations is called "fish_sim.ipynb"
+
+## Next Steps
+
+The further directions that I think are the most interesting are the following:
+
+1). To change the architecture to be a social LSTM architecture. Our very limited attempt was to modify the tensorflow social LSTM code found here: https://github.com/xuerenlv/social-lstm-tf. This attempt is in our folder "unsocial-social-lstm".
+
+2). The next change would be to change the loss function which currently is mean square error. We instead would like to predict a probability distribution and use log-likehood loss. 
+
+
+
+2). 
