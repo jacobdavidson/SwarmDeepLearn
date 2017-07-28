@@ -39,6 +39,7 @@ five_fish_sim.ipynb
 
 ## One fish
 Again, the code is in two separate files.  Use is much the same as with the five
-fish model.
+fish model.  A minor difference is that in the one-fish model, the inputs given
+are the fish's distance to all four walls.
 The notebook for training and generating predictions is called "one_fish_model.ipynb",
 and the notebook for visualizing simulations is called "fish_sim.ipynb"
